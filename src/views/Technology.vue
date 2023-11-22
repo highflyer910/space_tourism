@@ -103,8 +103,8 @@ export default {
 
         const toggleMobileNav = () => {
             isMobileNavVisible.value = !isMobileNavVisible.value;
-        const nav = document.querySelector('.primary-navigation');
-        nav.setAttribute('data-visible', isMobileNavVisible.value.toString());
+            const nav = document.querySelector('.primary-navigation');
+            nav.setAttribute('data-visible', isMobileNavVisible.value.toString());
     };
     
     return {
